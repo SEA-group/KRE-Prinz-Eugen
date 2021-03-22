@@ -1,7 +1,7 @@
 <GSC013_Prinz_Eugen_1945_Stern_lod2.visual>
 	<boundingBox>
-		<min>	-0.581670 -0.484959 -7.193577	</min>
-		<max>	0.580784 0.853583 -3.827259	</max>
+		<min>	-0.581670 -0.518976 -7.193577	</min>
+		<max>	0.580784 0.819566 -3.827259	</max>
 	</boundingBox>
 	<node>
 		<identifier>	Scene Root	</identifier>

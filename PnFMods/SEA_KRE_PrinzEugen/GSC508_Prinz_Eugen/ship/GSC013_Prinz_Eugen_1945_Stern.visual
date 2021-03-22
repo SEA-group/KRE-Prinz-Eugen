@@ -1,7 +1,7 @@
 <GSC013_Prinz_Eugen_1945_Stern.visual>
 	<boundingBox>
-		<min>	-0.587460 -0.484959 -7.195123	</min>
-		<max>	0.580784 0.855498 -3.827259	</max>
+		<min>	-0.587460 -0.518976 -7.195123	</min>
+		<max>	0.580784 0.821481 -3.827259	</max>
 	</boundingBox>
 	<node>
 		<identifier>	Scene Root	</identifier>
@@ -98,8 +98,8 @@
 			<primitive>	Stern_wireShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_HullX	</identifier>
-					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945.mfm	</mfm>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>

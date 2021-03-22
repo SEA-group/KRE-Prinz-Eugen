@@ -1,7 +1,7 @@
 <GSC013_Prinz_Eugen_1945_MidBack_lod3.visual>
 	<boundingBox>
-		<min>	-0.714152 -0.512702 -4.441328	</min>
-		<max>	0.715538 2.971135 -0.026894	</max>
+		<min>	-0.714152 -0.546719 -4.441328	</min>
+		<max>	0.715538 3.128662 -0.026894	</max>
 	</boundingBox>
 	<node>
 		<identifier>	Scene Root	</identifier>
@@ -57,6 +57,15 @@
 			</node>
 			<node>
 				<identifier>	MidBack_patch_Stern	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MidBack_wire	</identifier>
 				<transform>
 					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
 					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
@@ -146,6 +155,20 @@
 				<material>
 					<identifier>	SHIPMAT_PBS_HullX	</identifier>
 					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	MidBack_wire	</node>
+		<geometry>
+			<vertices>	MidBack_wire_lod3Shape.vertices	</vertices>
+			<primitive>	MidBack_wire_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>

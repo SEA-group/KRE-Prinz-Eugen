@@ -1,7 +1,7 @@
 <GSC013_Prinz_Eugen_1945_MidBack_lod1.visual>
 	<boundingBox>
-		<min>	-0.714520 -0.523702 -4.441588	</min>
-		<max>	0.715538 3.164311 -0.026894	</max>
+		<min>	-0.714520 -0.557719 -4.441588	</min>
+		<max>	0.715538 3.130294 -0.026894	</max>
 	</boundingBox>
 	<node>
 		<identifier>	Scene Root	</identifier>
@@ -134,8 +134,8 @@
 			<primitive>	MidBack_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_HullX	</identifier>
-					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945.mfm	</mfm>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>
@@ -190,8 +190,8 @@
 			<primitive>	MidBack_patch_Stern_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMAT_PBS_HullX	</identifier>
-					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945.mfm	</mfm>
+					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<mfm>	PnFMods/SEA_KRE_PrinzEugen/GSC508_Prinz_Eugen/ship/GSC013_Prinz_Eugen_1945_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>

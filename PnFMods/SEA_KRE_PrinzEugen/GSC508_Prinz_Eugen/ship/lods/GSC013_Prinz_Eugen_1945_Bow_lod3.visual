@@ -1,7 +1,7 @@
 <GSC013_Prinz_Eugen_1945_Bow_lod3.visual>
 	<boundingBox>
-		<min>	-0.571493 -0.500514 3.561606	</min>
-		<max>	0.571493 0.543078 7.160293	</max>
+		<min>	-0.571493 -0.534531 3.561606	</min>
+		<max>	0.571493 0.509061 7.160293	</max>
 	</boundingBox>
 	<node>
 		<identifier>	Scene Root	</identifier>
